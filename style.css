@@ -1,0 +1,17 @@
+@font-face {
+    font-family:"Lexend Deca";
+    src: url("https://fonts.google.com/specimen/Lexend+Deca");
+}
+
+@font-face {
+    font-family:"Inter";
+    src: url("https://fonts.google.com/specimen/Inter");
+}
+htm{
+    font-size: 15px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
