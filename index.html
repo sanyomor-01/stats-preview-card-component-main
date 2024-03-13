@@ -11,37 +11,47 @@
 
 </head>
 <body>
-  <main class="parent">
-    <section class="leftContent">
-      <div class="heading">
+  <main>
+    <header class="image-container">
+      <picture>
+        <source
+          media="(max-width: 992px)"
+          srcset="./images/image-header-mobile.jpg"
+        />
+        <img
+          src="./images/image-header-desktop.jpg"
+          alt="People working in an office"
+        />
+      </picture>
+    </header>
+
+    <section class="content">
+      <header class="intro">
         <h1>
           Get <span> insights</span> that help your business grow.
         </h1>
         <p>  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
           experience, and overall efficiency.
         </p>
-      </div>
+      </header>
      
-      <div class="assets">
-        <div class="companies">
+      <section class="stats">
+        <div>
           <h2>10k+</h2>
           <p>companies</p>
         </div>
-        <div class="companies">
+
+        <div >
           <h2>312</h2>
           <p>templates</p>
         </div>
-        <div class="companies">
+
+        <div>
           <h2>12M+</h2>
           <p>queries</p>
         </div>
-      </div>
-
+      </section>
     </section>
-    <section class="image">
-      <img src="./images/image-header-desktop.jpg" alt="company workers">
-    </section>
-
   </main>
 
 </body>
